@@ -1,0 +1,13 @@
+[package]
+name = "magicktiler-gui"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thomas Guntenaar"]
+description = "GUI for MagickTiler - A tool for creating zoomable image tilesets"
+
+[dependencies]
+eframe = "0.24.1"                         # egui framework
+rfd = "0.12.1"                            # File dialog
+log = "0.4.20"                            # Logging
+env_logger = "0.10.1"
+magicktiler = { path = "../magicktiler" } # Local dependency on the core library

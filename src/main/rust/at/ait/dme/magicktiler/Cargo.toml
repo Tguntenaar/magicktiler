@@ -1,0 +1,13 @@
+[package]
+name = "magicktiler"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thomas Guntenaar"]
+description = "A library for creating zoomable image tilesets"
+
+[dependencies]
+log = "0.4.20"
+image = "0.24.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
